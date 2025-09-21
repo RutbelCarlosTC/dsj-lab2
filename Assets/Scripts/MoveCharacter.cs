@@ -7,8 +7,8 @@ public class MovPersonaje : MonoBehaviour
     // Start is called before the first frame update
     [Header("Configuración de Movimiento")]
     public float velocidadMovimiento = 5f;
-    public float velocidadRotacion = 200f;
-    public float fuerzaSalto = 7f;
+    //public float velocidadRotacion = 200f;
+    //public float fuerzaSalto = 7f;
     
     private Rigidbody rb;
     private bool puedeSaltar = true;
